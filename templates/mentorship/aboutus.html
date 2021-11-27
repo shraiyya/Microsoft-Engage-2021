@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Mentorship Hub</title>
+  <style media="screen">
+    .jumbotron {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+
+    .jumbotron h1 {
+      text-align: center;
+    }
+
+    .alert {
+      margin: 0px;
+    }
+  </style>
+  <title>SHREYA PAWASKAR</title>
+</head>
+
+<body>
+  {% include "mentorship/navbar.html" %}
+  <br><br>
+  <center>
+    <h3 class='alert alert-success' style="margin-bottom:0px;">About Us !</h3>
+  </center>
+  <div class="jumbotron" style="margin-bottom: 0px;margin-top: 0px;">
+    <h1 class="display-4">Welcome to MentorHub!</h1>
+    <p class="lead">MentorHub is a webapp for connecting the budding mentees with enthusiastic mentors. The mentors will assist juniors in determining their career aspirations, and work with the mentees to achieve them. They will also help to identify and correct gaps in generic skills and knowledge. MentorHub will not only boost confidence but will also help mentees to identify and achieve their career goals.</p>
+    <hr class="my-4">
+    <p>Explore our Website.</p>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="/" role="button">HOME</a>
+    </p>
+  </div>
+  {% include "mentorship/footer.html" %}
+</body>
+
+</html>
