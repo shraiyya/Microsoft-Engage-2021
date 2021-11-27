@@ -7,20 +7,26 @@ Made by Shreya Pawaskar
 ---
 ## Screenshots
 
-### Homepage
-![homepage snap]()
+### Homepage of the Web App
+![homepage snap](https://github.com/shraiyya/Microsoft-Engage-2021/blob/main/static/images/home_page.png)
 ### Admin Dashboard
-![dashboard snap]()
+![dashboard snap](https://github.com/shraiyya/Microsoft-Engage-2021/blob/main/static/images/admin_dashboard.png)
 ### Mentor Dashboard
-![dashboard snap]()
+![dashboard snap](https://github.com/shraiyya/Microsoft-Engage-2021/blob/main/static/images/mentor_dashboard.png)
 ### Mentee Dashboard
-![dashboard snap]()
-### Report
-![Report snap]()
-### Mentor list
-![mentor snap]()
-### Mentee list
-![mentor snap]()
+![dashboard snap](https://github.com/shraiyya/Microsoft-Engage-2021/blob/main/static/images/mentee_dashboard.png)
+### Mentee Completion Report
+![Report snap](https://github.com/shraiyya/Microsoft-Engage-2021/blob/main/static/images/mentee_completion_report.png)
+### Mentor list from Admin
+![mentor snap](https://github.com/shraiyya/Microsoft-Engage-2021/blob/main/static/images/mentor_list.png)
+### Mentee list from Admin
+![mentor snap](https://github.com/shraiyya/Microsoft-Engage-2021/blob/main/static/images/mentee_list.png)
+### Mentee list from Admin
+![mentor snap](https://github.com/shraiyya/Microsoft-Engage-2021/blob/main/static/images/mentee_list.png)
+### Meeting List of the Mentee
+![mentor snap](https://github.com/shraiyya/Microsoft-Engage-2021/blob/main/static/images/mentee_list_of_meetings.png)
+### Admin Approval Page for a new mentor registration
+![mentor snap](https://github.com/shraiyya/Microsoft-Engage-2021/blob/main/static/images/approvals_for_mentor_registration.png)
 ---
 
 ## Technologies Used:
