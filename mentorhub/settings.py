@@ -116,3 +116,5 @@ EMAIL_PORT = 587
 EMAIL_HOST_USER = 'shreya.pawaskar@cumminscollege.in'
 EMAIL_HOST_PASSWORD = '*********' 
 EMAIL_RECEIVING_USER = ['shreya.pawaskar@cumminscollege.in'] 
+
+django_heroku.settings(locals())
