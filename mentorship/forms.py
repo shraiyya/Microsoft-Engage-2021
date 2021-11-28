@@ -20,14 +20,13 @@ class MentorUserForm(forms.ModelForm):
         widgets = {
         'password': forms.PasswordInput()
         }
+
 class MentorForm(forms.ModelForm):
     class Meta:
         model=models.Mentor
         fields=['address','mobile','domain','status','profile_pic']
 
 
-
-#for teacher related form
 class MenteeUserForm(forms.ModelForm):
     class Meta:
         model=User
@@ -62,4 +61,3 @@ class ContactusForm(forms.Form):
     Name = forms.CharField(max_length=30)
     Email = forms.EmailField()
     Message = forms.CharField(max_length=500,widget=forms.Textarea(attrs={'rows': 3, 'cols': 30}))
-
