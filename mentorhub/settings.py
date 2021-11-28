@@ -10,9 +10,9 @@ STATIC_DIR=os.path.join(BASE_DIR,'static')
 SECRET_KEY = 'hpbv()ep00boce&o0w7z1h)st148(*m@6@-rk$nn)(n9ojj4c0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1','.herokuapp.com']
 
 
 # Application definition
@@ -59,8 +59,6 @@ TEMPLATES = [
 WSGI_APPLICATION = 'mentorhub.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 DATABASES = {
     'default': {
@@ -109,11 +107,11 @@ MEDIA_ROOT=os.path.join(BASE_DIR,'static')
 
 LOGIN_REDIRECT_URL='/afterlogin'
 
-#for contact us give your gmail id and password
+
 EMAIL_BACKEND ='django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'shreya.pawaskar@cumminscollege.in'
-EMAIL_HOST_PASSWORD = 'shreya123' 
+EMAIL_HOST_PASSWORD = '*********' 
 EMAIL_RECEIVING_USER = ['shreya.pawaskar@cumminscollege.in'] 
